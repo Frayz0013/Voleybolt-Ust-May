@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Авторизация</title>
+    <link rel="stylesheet" href="..//style/sign in style .css">
+</head>
+<body>
+    <div class="login-container">
+        <h2>Вход в систему</h2>
+        <form action="#" method="post">
+            <div class="input-group">
+                <label for="email">Email или логин</label>
+                <input type="text" id="email" name="email" placeholder="Введите email" required>
+            </div>
+
+            <div class="input-group">
+                <label for="password">Пароль</label>
+                <input type="password" id="password" name="password" placeholder="Введите пароль" required minlength="6">
+            </div>
+
+            <div class="checkbox-group">
+                <input type="checkbox" id="remember" name="remember">
+                <label for="remember">Запомнить меня</label>
+            </div>
+
+            <button type="submit" class="btn-login">Войти</button>
+            
+
+            <div class="links">
+                <a href="#">Забыли пароль?</a>
+                <a href="#">Регистрация</a>
+            </div>
+        </form>
+    </div>
+</body>
+</html>
